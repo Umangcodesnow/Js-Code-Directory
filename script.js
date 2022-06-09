@@ -92,11 +92,51 @@
 
 //Find the hypotenuse   
 //00:38:58
+//esymethod
+// leta;
+// letb;
+// letc;
+
+
+// a=window.prompt("Enter sideA");
+// a=Number(a);
+// bwindow.prompt("Enter sideB");
+// b=Number(b);
+//    Math.sqrt(Math.pow(a,2)+Math.pow(b,2));
+// console.log("SideC:",c);
 
 
 
+// //difficult method
+// a = window.prompt("Enter side A");
+// a = Number(a);
+// b =window.prompt("Enter side B");
+// b =Number(b);
+// C = Math.sqrt(Math.pow(a, 2)+Math.pow (b, 2));
+// console. log ("Side C;", c);
+// document.getElementById("submitButton ").onclick = function (){
+// a - document.getElementById("aText Box ").value
+// Number (a)
+// a
+// b= document.getElementById("bText Box").value;
+// b =Number (b) ;
+// c = Math.sqrt(Math.pow (a, 2) + Math.pow(b, 2));
+// document.getElementById("cLabel").innerHTML = "Side C: " +Cj
 
+//Template Literals
+ 
+let word1 = 'Umang ';
+let word2 = ' Gupta';
+let num1=2;
+let num2=3;
+let example = `${num1+num2} 
 
+ ${word1 +" "+ word2}`;
+
+//const fullName = `${num1 + num2}   ${word1} ${word2}`;
+
+console.log(example);
+document.getElementById('exz').innerHTML = example;
 
 
 
